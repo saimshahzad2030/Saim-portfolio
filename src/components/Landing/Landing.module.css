@@ -2,7 +2,7 @@
 .textContainer {
   display: block;
   animation: fadeIn 1s ease-in-out; /* Adjust animation duration and timing function as needed */
-  top: 30%; 
+  bottom: 30%; 
   left: 5%;
   text-align: left;
   width: 35%;
@@ -18,7 +18,7 @@
   .textItem.active {
     display: block;
     animation: fadeIn 1s ease-in-out; /* Adjust animation duration and timing function as needed */
-    /* top: 25%;  */
+    /* bottom: 25%;  */
     left: 5%;
     text-align: left;
     /* width: 35%; */
@@ -28,11 +28,11 @@
 
  .socials{
   left: 5%;
-  /* top: 50%;  */
+  /* bottom: 50%;  */
 
  }
   .textDiv{
-    top: 40%;
+    bottom: 40%;
     font-family: "Outfit", sans-serif;
 
   }
@@ -57,7 +57,7 @@
 
   @media screen and (max-width:1024px) and (min-width:900px) {
     .textContainer {
-        top: 20%; 
+        bottom: 20%; 
         right: 5%;
         font-size: 50px;
         width: 35%;
@@ -66,7 +66,7 @@
 
   @media screen and (max-width:900px) and (min-width:600px) {
     .textContainer {
-        top: 15%; 
+        bottom: 15%; 
         right: 5%;
         font-size: 40px;
         width: 40%;
@@ -75,19 +75,19 @@
 
   @media screen and (max-width:600px) and (min-width:300px) {
     .textContainer {
-        top: 3%; 
+        bottom: 3%; 
         right: 5%;
         font-size: 25px;
         width: 45%;
       }
       .textDiv{
-        top: 5%;
+        bottom: 5%;
       }
   }
 
   @media screen and (max-width:300px) {
     .textContainer {
-        top: 10%; 
+        bottom: 10%; 
         right: 5%;
         font-size: 20px;
         width: 50%;
