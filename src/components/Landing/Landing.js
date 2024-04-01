@@ -26,7 +26,7 @@ const Landing = () => {
            <div className={`absolute w-full flex flex-col items-start ${style.textDiv}  p-4 rounded-lg`}>
            {textArray.map((text, index) => (
             
-            <h1 className={`text-xs w-9/12 left-0 ${style.textItem} transform transition-opacity ${index=== 1 || index === 3?'text-gray-50':'text-gray-700'}  duration-500  text-center px-4 py-4 rounded-md 2xl:text-xl 2xl:w-4/12 xl:text-3xl xl:w-8/12 lg:text-2xl lg:w-8/12 sm:text-xl sm:w-8/12 font-bold mb-4 ${style.textItem} ${index === textIndex ? style.active : ''}`} key={index}>
+            <h1 className={`text-xs w-9/12 left-0 ${style.textItem} transform transition-opacity ${index=== 1 || index === 3?'text-gray-50 bg-gray-700  bg-opacity-50':'text-gray-700  bg-gray-50 bg-opacity-50'}  duration-500  text-center px-4 py-4 rounded-md 2xl:text-xl 2xl:w-4/12 xl:text-3xl xl:w-8/12 lg:text-2xl lg:w-8/12 sm:text-xl sm:w-8/12 font-bold mb-4 ${style.textItem} ${index === textIndex ? style.active : ''}`} key={index}>
             {text}
           </h1>
           ))}
