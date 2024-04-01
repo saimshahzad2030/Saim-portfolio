@@ -51,7 +51,7 @@ const Potfolio = () => {
 
                     <h1 className={`text-2xl sm:text-3xl mt-4 text-center text-gray-700 font-bold ${style.heading}  group-hover:text-white`}>Restaurant Application</h1>
                     <h1 className={`text-md sm:text-md mt-4 text-left text-gray-700 ${style.heading}  group-hover:text-white`}>This restaurant appplication holds the restaurant data and displays their hot deals, meals and many mpopre things to customers </h1>
-                    <h1 className={`text-md sm:text-md mt-4 text-left text-gray-700 ${style.heading}  group-hover:text-white`}>Customers can view restaurant deals and foods and instead of physically asking for the present dishes they can just simply check what is available and what's not</h1>
+                    <h1 className={`text-md sm:text-md mt-4 text-left text-gray-700 ${style.heading}  group-hover:text-white`}>Customers can view restaurant deals and foods and instead of physically asking for the present dishes they can just simply check what is available and what&apos;s not</h1>
                     <div className={`flex flex-row items-center w-full  mt-4`}>
 
 
