@@ -98,8 +98,7 @@ const Navbar = ({ selectedLink }) => {
                             <Link href="/" className={`${menuLinksVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'} text-xl text-gray-700 w-full ${style.link} text-center mt-4 transition-opacity duration-500 ease-in-out transform`}>Home</Link>
                             <Link href="/expertise" className={`${menuLinksVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'} text-xl text-gray-700 ${style.link} mt-4 transition-opacity duration-500 ease-in-out transform`}>Expertise</Link>
                             <Link href="/portfolio" className={`${menuLinksVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'} text-xl text-gray-700 ${style.link} mt-4 transition-opacity duration-500 ease-in-out transform`}>Portfolio</Link>
-                            <Link href="/education" className={`${menuLinksVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'} text-xl text-gray-700 ${style.link} mt-4 transition-opacity duration-500 ease-in-out transform`}>Education</Link>
-
+                          
                         </div>
                     </div>
 

@@ -9,7 +9,7 @@ const Footer = () => {
 
             <div className='h-px bg-gray-700'></div>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full bg-gray-50 py-16'>
-                <div className=' py-4  flex flex-col items-center justify-start bg-gray-50 ml-4'>
+                <div className=' py-4 px-2  flex flex-col items-center justify-start bg-gray-50 sm:ml-4'>
                     <h1 className={`text-3xl sm:text-2xl  text-gray-700 font-bold ${style.heading}`}>About Saim</h1>
                     <p className={`text-xl sm:text-lg text-gray-700 mt-4 text-center ${style.text}`}> Saim is a passionate MERN Stack Developer primarilt working on React, Next js and Node/express as a technology stack</p>
                 </div>
@@ -68,19 +68,18 @@ const Footer = () => {
                 <h1 className={`text-3xl sm:text-2xl  text-gray-700 font-bold ${style.heading}`}>Socially Available</h1>
  <div className='flex flex-row items-center ml-4 mt-4'>
                         <Link href={'https://www.facebook.com/sheikh.saim.10'}>
-                            <img className={`h-10 w-10 2xl:h-20 2xl:w-20 xl:h-8 xl:w-8 lg:h-6 lg:w-6 sm:h-4 sm:w-4  sm:flex h-4 w-4 rounded-full cursor-pointer  mr-3 2xl:mr-4 xl:mr-5 lg:mr-6  sm:mr-2 transition-transform transform hover:scale-105`} src="/Assets/socially-available/linkedin.png" alt="linkedin" />
+                            <img className={`h-10 w-10 2xl:h-20 2xl:w-20 xl:h-8 xl:w-8 lg:h-6 lg:w-6 sm:h-4 sm:w-4  sm:flex rounded-full cursor-pointer  mr-3 2xl:mr-4 xl:mr-5 lg:mr-6  sm:mr-2 transition-transform transform hover:scale-105`} src="/Assets/socially-available/linkedin.png" alt="linkedin" />
                         </Link>
                         <Link href={'https://www.facebook.com/sheikh.saim.10'}>
-                            <img className={`h-10 w-10 2xl:h-20 2xl:w-20 xl:h-8 xl:w-8 lg:h-6 lg:w-6 sm:h-4 sm:w-4  sm:flex h-4 w-4 rounded-full cursor-pointer  mr-3 2xl:mr-4 xl:mr-5 lg:mr-6  sm:mr-2 transition-transform transform hover:scale-105`} src="/Assets/socially-available/github.png" alt="Github" />
+                            <img className={`h-10 w-10 2xl:h-20 2xl:w-20 xl:h-8 xl:w-8 lg:h-6 lg:w-6 sm:h-4 sm:w-4  sm:flex rounded-full cursor-pointer  mr-3 2xl:mr-4 xl:mr-5 lg:mr-6  sm:mr-2 transition-transform transform hover:scale-105`} src="/Assets/socially-available/github.png" alt="Github" />
                         </Link>
                         <Link href={'https://www.facebook.com/sheikh.saim.10'}>
-                            <img className={`h-10 w-10 2xl:h-20 2xl:w-20 xl:h-8 xl:w-8 lg:h-6 lg:w-6 sm:h-4 sm:w-4  sm:flex h-4 w-4 rounded-full cursor-pointer  mr-3 2xl:mr-4 xl:mr-5 lg:mr-6  sm:mr-2 transition-transform transform hover:scale-105`} src="/Assets/socially-available/facebook.png" alt="Facebook" />
+                            <img className={`h-10 w-10 2xl:h-20 2xl:w-20 xl:h-8 xl:w-8 lg:h-6 lg:w-6 sm:h-4 sm:w-4  sm:flex rounded-full cursor-pointer  mr-3 2xl:mr-4 xl:mr-5 lg:mr-6  sm:mr-2 transition-transform transform hover:scale-105`} src="/Assets/socially-available/facebook.png" alt="Facebook" />
                         </Link>
 
                     </div>
                 </div>
             </div>
-            <div className='h-px bg-gray-700'></div>
 {/* 
             <div className=' py-4   w-full bg-gray-50 h-auto p-4'>
                 <div className='flex flex-col items-start'>
