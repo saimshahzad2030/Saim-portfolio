@@ -5,7 +5,7 @@ import style from './Landing.module.css'
 import Link from 'next/link';
 const Landing = () => {
     const [textIndex, setTextIndex] = useState(0);
-    const textArray = ['I am Meta Certified Mern Stack Developer mainly focused on Node, express js', 'I have some macro experience of working with next js framework as well', 'I have completed graduation in bachelors of CS from FUUAST, Karachi'];
+    const textArray = ['I am Meta Certified Mern Stack Developer mainly focused on Node, express js', 'I have some 3 months experience of working with next js framework ', 'I have completed graduation in bachelors of CS from FUUAST, Karachi'];
     const images = [
       '/Assets/Landing/1.jpg',
       '/Assets/Landing/2.jpg',

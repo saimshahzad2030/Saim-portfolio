@@ -6,7 +6,41 @@ const Potfolio = () => {
         <>
             <h1 className={`text-2xl sm:text-5xl mt-4 mb-4 text-center text-gray-700 font-bold ${style.heading}`}>Portfolio Projects</h1>
             <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 p-4 gap-x-8 gap-y-8 my-4'>
+            <div className={`flex flex-col justify-center items-center bg-gray-200 p-8 transition-all duration-300 hover:bg-gray-700 hover:scale-105 cursor-pointer group`}>
+                    <img src={`/Assets/portfolios/crypto-app.jpg`} alt='Crypto exit app' />
+                </div>
 
+                <div className={`flex flex-col items-start bg-gray-200 p-8 rounded-lg  `}>
+
+                    <h1 className={`text-2xl sm:text-3xl mt-4 text-center text-gray-700 font-bold ${style.heading}  group-hover:text-white`}>Crypto Exit Calculator</h1>
+                    <h1 className={`text-md sm:text-md mt-4 text-left text-gray-700 ${style.heading}  group-hover:text-white`}>Crypto Exit Calculator is a Crypto coins calculation-based aplication that will provide insights for user to invest on specific coins at the right time. </h1>
+                    <h1 className={`text-md sm:text-md mt-4 text-left text-gray-700 ${style.heading}  group-hover:text-white`}>It contain coin history, coin details, exit calculations , income collections and other math metrices.</h1>
+                    <div className={`flex flex-col items-start justify-between sm:flex-row sm:items-center sm:justify-start w-full  mt-4`}>
+
+
+                        <Link href={'https://crypto-exit-app.vercel.app/'}>
+                            <button className='flex flex-row items-center  border border-gray-600 transition-colors duration-300 hover:bg-gray-600 text-gray-600 hover:text-white font-bold py-2 px-4 rounded'> <img className='h-6 w-6 mr-2' src={`/Assets/skills/global.png`} alt='problem-solving' />
+                                View Webapp</button>
+                        </Link>
+
+                        <Link href={'https://github.com/saimshahzad2030/bitcoin-backend.git'}>
+                        <button className='mt-4 sm:mt-0 flex flex-row items-center   sm:ml-8  border border-gray-600 transition-colors duration-300 hover:bg-gray-600 text-gray-600 hover:text-white font-bold py-2 px-4 rounded'> <img className='h-6 w-6 mr-2' src={`/Assets/socially-available/github.png`} alt='problem-solving' />
+                                      Github</button>
+                        </Link>
+
+
+                    </div>
+                    <div className={`flex flex-row items-center w-full  mt-4`}>
+
+                        <h1 className={`text-xl sm:text-xl text-left text-gray-700 ${style.heading}  group-hover:text-white`}>Stack Used: </h1>
+                        <img className='h-8 w-8 ml-4' src={`/Assets/skills/favicon.ico`} alt='problem-solving' />
+                        <img className='h-8 w-8 ml-4' src={`/Assets/skills/node-js.png`} alt='problem-solving' />
+                        <img className='h-8 w-8 ml-4' src={`/Assets/skills/technology.png`} alt='problem-solving' />
+                        <img className='h-8 w-8 ml-4' src={`/Assets/skills/supabase-logo.svg`} alt='problem-solving' />
+
+
+                    </div>
+                </div>
                 <div className={`flex flex-col justify-center items-center bg-gray-200 p-8 transition-all duration-300 hover:bg-gray-700 hover:scale-105 cursor-pointer group`}>
                     <img src={`/Assets/portfolios/crs.jpg`} alt='problem-solving' />
                 </div>
